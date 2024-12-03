@@ -52,6 +52,5 @@ You can deploy your portfolio on platforms such as:
 - GitHub Pages: Host your React portfolio directly from this repository.
 - Netlify: Easy deployment with continuous integration support.
 - Vercel: Another great option for React applications.
-  
-![image](https://github.com/user-attachments/assets/d9430a97-7d28-4e53-bed0-7ba08a4fc385)
 
+  ![image](https://github.com/user-attachments/assets/80a7f56d-0370-4244-b712-4f5e6d56fd22)
