@@ -1,0 +1,212 @@
+@use "../../app" as *;
+
+
+
+.services{
+    background: linear-gradient(180deg, #0c0c1d, #111132);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .textContainer{
+        flex: 1;
+        align-self: flex-end;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        @include mobile{
+            align-self: center;
+            text-align: center;
+            flex-direction: column;
+            margin-left: 15vw;
+        }
+        
+        p{
+            font-weight: 200;
+            font-size: 20px;
+            color: gray;
+            text-align: right;
+
+            @include small-mobile{
+                font-size: 18px;
+            }
+            @include mobile{
+                font-size: 20px;
+            }
+        }
+
+        hr{
+            width: 500px;
+            border: none;
+            border-top: 0.5px solid gray;
+
+            @include mobile{
+                width: 300px;
+            }
+
+            @include small-mobile{
+                width: 250px;
+            }
+            @include medium-mobile{
+                width: 450px;
+            }
+            
+        }
+    }
+    .titleContainer{
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        @include mobile{
+            width: 100%;
+        }
+
+
+        .title{
+            display: flex;
+            align-items: center;
+            gap: 50px;
+
+            @include desktop{
+                margin-bottom: 1vh;
+            }
+
+            @include mobile{
+                flex-direction: column;
+                text-align: center;
+                gap: 20px;
+            }
+
+            img{
+                width: 300px;
+                height: 100px;
+                border-radius: 50px;
+                object-fit: cover;
+
+                @include mobile{
+                    width: 200px;
+                    height: 50px;
+                    margin-top: auto;
+                    }
+                @include small-mobile{
+                    margin-top: 12px;
+                }
+                @include medium-mobile{
+                    margin-top: 12px;
+                }
+            }
+
+            h1{
+                font-size: 96px;
+                font-weight: 100;
+
+                @include desktop{
+                    font-size: 70px;
+                }
+
+                @include mobile{
+                font-size: 36px;
+                }
+
+                @include small-mobile{
+                    font-size: 23px;
+                }
+                @include medium-mobile{
+                    font-size: 30px;
+                }
+            }
+
+            button{
+                width: 300px;
+                height: 100px;
+                border-radius: 50px;
+                background-color: orange;
+                border: none;
+                font-size: 24px;
+                cursor: pointer;
+
+                @include mobile{
+                    font-size: 16px;
+                    width: 150px;
+                    height: 50px;
+                    }
+                @include small-mobile{
+                    font-size: 12px;
+                    width: 100px;
+                    height: 40px;
+                }
+            }
+        }
+    }
+    .listContainer{
+        flex: 2;
+        display: flex;
+        max-width: 1366px;
+        margin: auto;
+
+        @include desktop{
+            max-width: fit-content;
+            margin-left: 1vw;
+            margin-right: 1vw;
+        }
+        
+        @include mobile{
+            flex-direction: column;
+            align-self: center;
+            width: 100%;
+            }
+
+        .box{
+            padding: 50px;
+            border: 0.5px solid gray;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            @include mobile{
+                border: none;
+                align-items: center;
+                gap: 20px;
+                padding: 10px;
+                }
+
+            @include small-mobile{
+                gap: 10px;
+                padding-bottom: 2px;
+            }
+
+            @include medium-mobile{
+                gap: 10px;
+                padding-bottom: 2px;
+            }
+
+            p{
+                @include mobile{
+                    display: none;
+                    }
+            }
+
+            button{
+                padding: 10px;
+                margin-top: 5px;
+                margin-bottom: 10px;
+                background-color: orange;
+                border: none;
+                cursor: pointer;
+
+                @include mobile{
+                    background-color: transparent;
+                    border: 1px solid orange;
+                    border-radius: 5px;
+                    color: orange;
+                    width: 50%;
+                    padding: 5px;
+                    }
+            }
+        }
+    }
+}
