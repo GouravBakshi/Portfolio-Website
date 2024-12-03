@@ -23,7 +23,7 @@ https://github.com/GouravBakshi/Portfolio-Website.git
 
 ### 2. Install Dependencies
 ```bash
-cd portfolio-react
+cd Portfolio-Website
 npm install
 ```
 ### 3. Customize the content
