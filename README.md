@@ -53,4 +53,7 @@ You can deploy your portfolio on platforms such as:
 - Netlify: Easy deployment with continuous integration support.
 - Vercel: Another great option for React applications.
 
+  Happy coding and good luck with your portfolio! 🚀
+  
+
   ![image](https://github.com/user-attachments/assets/80a7f56d-0370-4244-b712-4f5e6d56fd22)
